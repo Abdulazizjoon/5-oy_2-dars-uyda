@@ -59,5 +59,9 @@
 // }
 // tes(5);
 
-
+setInterval(function () {
+    if (a) {
+        
+    }
+})
 
