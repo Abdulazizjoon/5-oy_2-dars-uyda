@@ -91,11 +91,7 @@
 
 // chiqar(aa);
 
-function validateObjectModification(obj) {
-    if (typeof obj !== 'object' || obj === null) {
-      throw new Error('Parameter must be an object');
-    }
-  }
+
   
 
 
