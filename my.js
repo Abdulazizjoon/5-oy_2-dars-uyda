@@ -59,5 +59,44 @@
 // }
 // tes(5);
 
+// function aa(b) {
+//     for (let key in b) {
+//         if (b.hasOwnProperty(key)) { 
+//             console.log(`${key}: ${b[key]}`);
+//         }
+//     }
+// }
+
+// let a = {
+//     a: 1,
+//     b: "two",
+//     c: [3, 4, 5]
+// };
+
+// aa(a);
+
+// function chiqar(a) {
+//     for (let key in a) {
+//         if (a.hasOwnProperty(key)) {
+//             console.log(`${key}: ${a[key]}`);
+//         }
+//     }
+// }
+
+// let aa = {
+//     a: 1,
+//     b: 2,
+//     c: 3
+// };
+
+// chiqar(aa);
+
+function validateObjectModification(obj) {
+    if (typeof obj !== 'object' || obj === null) {
+      throw new Error('Parameter must be an object');
+    }
+  }
+  
+
 
 
