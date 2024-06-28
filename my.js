@@ -91,8 +91,24 @@
 
 // chiqar(aa);
 
+function a(aa, b) {
+    let d = -1;
 
-  
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === b) {
+            d = i;
+        }
+    }
+
+    return d;
+}
+
+
+let arr = [1, 3, 5, 3, 7, 9, 3];
+let t = 3;
+let res = a(arr, b);
+console.log(t, res);
+
 
 
 
