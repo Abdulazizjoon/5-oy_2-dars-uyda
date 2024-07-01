@@ -111,4 +111,146 @@
 
 
 
+// function a(arr) {
+//     if (arr.length < 3) {
+//         return "error";
+//     }
+    
+//     var boshlanishi = Math.floor(arr.length / 2) - 1;
+//     var oxirgi = boshlanishi + 3;
+    
+//     return arr.slice(boshlanishi, oxirgi);
+// }
+
+
+// var aa = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// var yigindi = a(aa);
+// console.log(yigindi);
+
+
+// function a(arr, b) {
+
+//     var d = Math.floor(Math.random() * 90 + 10);
+
+//     var i = Math.floor(Math.random() * arr.length);
+//     arr.splice(i, b, d);
+
+//     console.log(`Massivga ${b} ta element boshlanib, ${d} soni ${i} indeksdan boshlab qo'shildi.`);
+//     return arr;
+// }
+
+
+// var t = [1, 2, 3, 4, 5];
+
+
+// var yigindi = a(t, 3, 2);
+// console.log(yigindi);
+
+// function o(arr1, arr2, arr3) {
+//     arr1.push(arr3);
+    
+    
+//     arr1.push(arr2);
+    
+//     return arr1;
+// }
+
+
+// let arr1 = [1, 2, 3];
+// let arr2 = [4, 5, 6];
+// let arr3 = [7, 8, 9];
+
+// let yigindi = o(arr1, arr2, arr3);
+// console.log(yigindi);
+
+// function a(arr, e) {
+//     return arr.lastIndexOf(e);
+// }
+
+// let arr = [1, 2, 3, 4, 2, 5, 6, 2];
+// let e = 2;
+
+// let lastIndex = a(arr, e);
+// console.log( e, lastIndex);
+
+// function elementExistsInBoth(arr1, arr2, arr3) {
+ 
+//     let index1 = arr1.indexOf(arr3);
+
+//     let index2 = arr2.indexOf(arr3);
+   
+//     return index1 !== -1 && index2 !== -1;
+// }
+
+
+// let arr1 = [1, 2, 3, 4, 5];
+// let arr2 = [5, 6, 7, 8, 9];
+// let arr3= 5;
+
+// let a = elementExistsInBoth(arr1, arr2, arr3);
+// console.log(arr3,  a);
+
+
+
+// function a(arr) {
+//     let son = [];
+    
+   
+//     arr.forEach(function(item) {
+//         if (item >= 100 && item <= 999) {
+//             son.push(item); 
+//         }
+//     });
+
+//     if (son.length === 0) {
+//         return ;
+//     }
+    
+   
+//     let but = son.reduce(function(or, d) {
+//         return or + d;
+//     }, 0) / son.length;
+
+//     return but;
+// }
+
+
+// const arrr = [123, 456, 789, 234, 567, 890];
+// const ortacha = a(arrr);
+// console.log(ortacha); 
+
+
+
+
+// function a(string) {
+   
+//     let natija = string.map(function(arr) {
+//         return arr[arr.length - 1]; 
+//     });
+
+//     return natija;
+// }
+
+
+// const yozuvlar = ['apple', 'banana', 'cherry', 'date'];
+// const natija = a(yozuvlar);
+// console.log(natija);
+
+
+// function a(arr) {
+    
+//     let natija = arr.filter(function(aa) {
+//         return aa.length < 4;
+//     });
+
+//     return natija; 
+// }
+
+// const d = ['apple', 'banana', 'cherry', 'date', 'figma', 'grape'];
+// const natija = a(d);
+// console.log(natija); 
+
+
+
 
