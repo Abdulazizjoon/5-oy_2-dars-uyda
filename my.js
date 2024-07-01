@@ -252,5 +252,16 @@
 // console.log(natija); 
 
 
+// function indexof(ismlar) {
+//     const indeks = ismlar.findIndex(function(ism) {
+//         return ism.includes('bek'); 
+//     });
+
+//     return indeks; 
+// }
+
+// const ismlar = ['Abdulbek', 'Bekzod', 'Muhammad', 'Bekmirza', 'Ravshanbek'];
+// const indeks = indexof(ismlar);
+// console.log(indeks);
 
 
